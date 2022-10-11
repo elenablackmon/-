@@ -63,6 +63,6 @@
 ## Глава V
 ### Запуск телеграм-бота
 
-Для работы через телеграм-бот получите от BotFather токен (API ключ) и вставьте его в скрипт в указанном месте в файл telebot_nutritionist.py
-Установите библиотеку PyTelegramBotAPI: pip install PyTelegramBotAPI
-Запустите данный скрипт в командной строке: python telebot_nutritionist.py
+ - Для работы через телеграм-бот получите от BotFather токен (API ключ) и вставьте его в скрипт в указанном месте в файл telebot_nutritionist.py
+ - Установите библиотеку PyTelegramBotAPI: pip install PyTelegramBotAPI
+ - Запустите данный скрипт в командной строке: python telebot_nutritionist.py
