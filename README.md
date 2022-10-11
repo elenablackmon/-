@@ -66,3 +66,4 @@
  `API_TOKEN = 'Токен (API ключ) который получили от BotFather'`
  - Установите библиотеку PyTelegramBotAPI: `pip install PyTelegramBotAPI`
  - Запустите данный скрипт в командной строке: `python telebot_nutritionist.py`
+ - В созданном телеграм-боте нажмите кнопку `start` или введите команду `/start`
