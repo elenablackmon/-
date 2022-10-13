@@ -52,8 +52,9 @@ def handle_text(message):
 def get_ingredients(message):
     request = message.text
     chat_id = message.chat.id
+    list_of_ingredients = request.lower()
     # разобьём список на массив слов, используя split.
-    list_of_ingredients = request.split(', ')
+    list_of_ingredients = list_of_ingredients.split(', ')
 
     res = recipies.Forecast(list_of_ingredients)
     res.preprocess()
