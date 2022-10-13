@@ -18,6 +18,7 @@ else:
         "Please enter the list of ingredients separated by commas "
         "and without quotation marks\nВведите список ингридиентов "
         "через запятую и без кавычек, на английском):")
+    list_of_ingredients = list_of_ingredients.lower()
     list_of_ingredients = list_of_ingredients.split(", ")
     res = recipies.Forecast(list_of_ingredients)
     result1 = res.preprocess()
